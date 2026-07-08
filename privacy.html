@@ -53,7 +53,12 @@
 
 <h2>4. Permisos del Dispositivo</h2>
 <h3>4.1. Permiso de Micrófono</h3>
-<p>La App solicita acceso al micrófono exclusivamente para grabar notas de voz y para transcripción voz a texto.</p>
+<p>La App solicita acceso al micrófono exclusivamente para:</p>
+<ul>
+    <li>Grabar notas de voz y audios personales dentro de la App.</li>
+    <li>Transcripción voz a texto para crear y editar notas de texto.</li>
+    <li>Transcripción voz a texto para añadir elementos a listas de tareas.</li>
+</ul>
 <div class="importante"><strong>Importante:</strong> la funcionalidad de voz a texto utiliza el servicio SpeechRecognizer de Android, que puede procesar el audio en servidores de Google según sus propias políticas. El desarrollador de Mis Notas no tiene acceso ni control sobre dicho procesamiento.</div>
 
 <h3>4.2. Permiso de Cámara</h3>
@@ -74,18 +79,30 @@
 </ul>
 
 <h2>6. Compartir Contenido con Terceros</h2>
-<p>La App permite compartir notas con aplicaciones de terceros mediante el sistema Android estándar (Sharesheet). El acto de compartir es siempre iniciado por el usuario de forma voluntaria. Una vez que el contenido abandona la App, queda sujeto a las políticas de la aplicación receptora.</p>
+<p>La App permite compartir contenido con aplicaciones de terceros mediante el sistema Android estándar (Sharesheet). El acto de compartir es siempre iniciado por el usuario de forma voluntaria. Una vez que el contenido abandona la App, queda sujeto a las políticas de la aplicación receptora.</p>
+<ul>
+    <li>La exportación de las notas se realiza en formato PDF generado localmente en el dispositivo del usuario a partir del contenido de la nota. El PDF puede incluir el texto de la nota e imágenes adjuntas.</li>
+    <li>Las grabaciones de audio adjuntas pueden compartirse directamente como archivo de audio (Sharesheet), de forma independiente a la nota y su exportación PDF.</li>
+</ul>
 
-<h2>7. Seguridad de los Datos</h2>
+<h2>7. Papelera de Notas</h2>
+<p>Las notas eliminadas por el usuario se mueven a una papelera temporal antes de su eliminación definitiva. Durante ese período:</p>
+<ul>
+    <li>Las notas permanecen almacenadas localmente en el dispositivo.</li>
+    <li>El usuario puede restaurarlas o eliminarlas de forma permanente.</li>
+    <li>El desarrollador no tiene acceso a las notas en ningún momento.</li>
+</ul>
+
+<h2>8. Seguridad de los Datos</h2>
 <p>Los datos residen exclusivamente en el dispositivo del usuario, protegidos por las medidas de seguridad de Android (cifrado, aislamiento de aplicaciones). El desarrollador no tiene acceso remoto a ningún dispositivo.</p>
 
-<h2>8. Menores de Edad</h2>
+<h2>9. Menores de Edad</h2>
 <p>Esta aplicación no está dirigida a menores de 13 años. Para cualquier incidencia contactar en <a href="mailto:gsd.appcloud@gmail.com">gsd.appcloud@gmail.com</a>.</p>
 
-<h2>9. Cambios en esta Política</h2>
+<h2>10. Cambios en esta Política</h2>
 <p>Esta política puede actualizarse ocasionalmente. Los cambios se comunicarán mediante actualización de la App en Google Play Store.</p>
 
-<h2>10. Contacto</h2>
+<h2>11. Contacto</h2>
 <ul>
     <li>Correo electrónico: <a href="mailto:gsd.appcloud@gmail.com">gsd.appcloud@gmail.com</a></li>
     <li>Ficha de la aplicación en Google Play Store</li>
