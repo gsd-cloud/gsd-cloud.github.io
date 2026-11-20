@@ -47,7 +47,9 @@
 </script>
 <!-- ========== FIN DESCARGA SEGÚN EL MÓVIL ========== -->
 
-<p><a href="soporte-misnotas.html">Soporte</a> · <a href="privacy.html">Política de privacidad</a></p>
+<!-- El enlace de Soporte solo sale en iPhone/iPad (la página de soporte es la que pide la App Store) -->
+<p><span id="soporte" class="oculto"><a href="soporte-misnotas.html">Soporte</a> · </span><a href="privacy.html">Política de privacidad</a></p>
+<script>if (esApple) ver("soporte");</script>
 
 </body>
 </html>
